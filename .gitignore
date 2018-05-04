@@ -1,12 +1,8 @@
-# GENERAL
-# =======
 .*cache
 *.log
 .DS_Store
 Thumbs.db
 
-# PYTHON
-# ======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -42,7 +38,6 @@ docs/_build/
 
 # PyInstaller
 *.manifest
-*.spec
 
 # Installer logs
 pip-log.txt

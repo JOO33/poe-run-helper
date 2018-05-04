@@ -1,0 +1,9 @@
+QWidget {
+    font-family: 'Fontin';
+    font-size: 32px;
+}
+
+QWidget#MainWidget {
+    color: #333;
+    background-color: rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,16 @@
+{
+    "files": [
+        [
+            "poe-run-helper/resources/resources.qrc",
+            "poe-run-helper/app"
+        ],
+        [
+            "poe-run-helper/resources/templates/*.ui",
+            "poe-run-helper/app/views"
+        ]
+    ],
+    "pyrcc": "pyrcc5",
+    "pyrcc_options": "",
+    "pyuic": "pyuic5",
+    "pyuic_options": "--import-from app"
+}
