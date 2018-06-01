@@ -1,31 +1,30 @@
 # poe-run-helper
 
+## Todo
+- Signals handler
+- Figure out Main UI
+- Load layout images
+- load area tips - http://poe-roadmap.com/
 
-### Todo
-Signals handler
-Figure out Main UI
-Load layout images
-load area tips - http://poe-roadmap.com/
-
-run planner -  (use pob link n convert)
-    - only main quests and get all skillpoints
-
--[] webapp
-! choose start class, choose ascendency
-! choose quest rewards
-
-paste in build (optional)
-choose when to get misc gems
-share build with code
-pob quickview option
-
-d3 for map?
+### run planner
+use pob link n convert
+- only main quests and get all skillpoints
+- [ ] Base Webapp
+    - [ ] choose start class
+    - [ ] choose ascendency
+    - [ ] choose quest rewards
+- [ ] Other Webapp features
+    - [ ] paste in build (optional)
+    - [ ] choose when to get misc gems
+    - [ ] share run plan with code
+    - [ ] pob quickview option
 
 For later
+- map visualization
 - data analysis
-level vs. time graph
-area & time graph
-tips reducing time for each area
+- level vs. time graph
+- area & time graph
+- tips reducing time for each area
 
 ### Setup
 
