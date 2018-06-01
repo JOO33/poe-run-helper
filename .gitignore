@@ -42,3 +42,7 @@ docs/_build/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+# IDE
+.vscode
+.idea

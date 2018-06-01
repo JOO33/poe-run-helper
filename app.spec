@@ -18,12 +18,12 @@ pyz = PYZ(a.pure,
 exe = EXE(pyz,
           a.scripts,
           exclude_binaries=True,
-          name='app',
+          name='runhelper',
           debug=False,
           strip=False,
           upx=True,
           console=False,
-          icon='poe-run-helper\\resources\\icons\\app.ico')
+          icon='app\\resources\\icons\\app.ico')
 
 coll = COLLECT(exe,
                a.binaries,
@@ -31,9 +31,9 @@ coll = COLLECT(exe,
                a.datas,
                strip=False,
                upx=True,
-               name='app')
+               name='runhelper')
 
 app = BUNDLE(coll,
-             name='App.app',
-             icon='poe-run-helper/resources/icons/app.icns',
+             name='RunHelper.app',
+             icon='app/resources/icons/app.icns',
              bundle_identifier=None)

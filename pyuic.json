@@ -1,12 +1,12 @@
 {
     "files": [
         [
-            "poe-run-helper/resources/resources.qrc",
-            "poe-run-helper/app"
+            "app/resources/resources.qrc",
+            "app/src"
         ],
         [
-            "poe-run-helper/resources/templates/*.ui",
-            "poe-run-helper/app/views"
+            "app/resources/templates/*.ui",
+            "app/src/views"
         ]
     ],
     "pyrcc": "pyrcc5",

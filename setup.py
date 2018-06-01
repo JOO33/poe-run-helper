@@ -1,8 +1,12 @@
 #!/usr/bin/env python
+import re
 from subprocess import check_call
 
 from setuptools import setup, find_packages, Command
 from pyqt_distutils.build_ui import build_ui
+
+with open('app/__init__.py') as f:
+    APP_VERSION = re.search(r'__version__\s+=\s+\'(.*)\'', f.read()).group(1)
 
 
 class BuildResourcesCommand(build_ui):
@@ -26,14 +30,13 @@ class BuildAppCommand(Command):
         pass
 
     def run(self):
-        command = ['pyinstaller', '-y', 'app.spec']
         self.run_command('build_res')
-        self.announce('Running command: %s' % ' '.join(map(str, command)))
+        command = ['pyinstaller', '-y', 'app.spec']
         check_call(command)
 
 
-setup(name='poe-run-helper',
-      version='0.0.1',
+setup(name='app',
+      version=APP_VERSION,
       packages=find_packages(),
       description='PoE Run Helper',
       author='JooHee Lee',
